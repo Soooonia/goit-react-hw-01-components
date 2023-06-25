@@ -1,0 +1,33 @@
+.profile{
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 14;
+    color: #010101;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items:center;}
+
+.stats{
+      display: inline-flex;
+      list-style: none;
+      background-color: #EEEEEE;
+      padding: 0;
+}
+
+.item{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #CDCDCD;
+    padding: 5px 5px;
+    width:70px;
+}

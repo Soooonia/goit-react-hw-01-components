@@ -1,4 +1,5 @@
 import css from './Statistics.module.css'
+import PropTypes from 'prop-types';
 
 function Statistics({ title = 'Upload stats', stats }){
     return (
@@ -32,6 +33,21 @@ function StatisticItem({ label, percentage}) {
       </li>
     );
 }
+
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(
+    PropTypes.exact({
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+      id: PropTypes.string.isRequired,
+    })
+  ),
+};
+
+
+
 
     export default Statistics;
 

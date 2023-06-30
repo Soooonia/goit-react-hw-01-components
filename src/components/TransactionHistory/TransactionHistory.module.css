@@ -1,0 +1,23 @@
+.table{
+    margin-top: 50px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table, th, td {
+border: 1px solid grey;
+border-collapse: collapse;
+}
+
+th, td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.type{
+    text-align: start;
+    padding-left: 60px;
+}
